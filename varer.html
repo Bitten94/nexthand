@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXTHAND</title>
+    <link rel="stylesheet" href="styleVarer.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex">
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="topnav">
+            <a href="index.html">Forside</a>
+            <a href="nyheder.html">Nyheder</a>
+            <img src="image/Artboard_23.svg" class="logo">
+            <a href="varer.html">Varer</a>
+            <a href="om.html">Om</a>
+        </div>
+    </div>
+
+    <div id="splash">
+        <div class=logo1></div>
+    </div>
+
+    <aside class="infowrapper">
+        <div class="infobox">
+            <div class="infobox_content">
+                <h2>Varer</h2>
+                <p>Herunder kan du se alle vores fantastiske varer. Vi har alt fra borde og stole til de fineste dekorationsting. Det er kun fantasien, der sætte grænser.</p>
+            </div>
+        </div>
+    </aside>
+
+    <nav class="filter_alle">
+        <button class="filter valgt" data-kategori="alle">Alle</button>
+    </nav>
+    <nav>
+        <div class="filter_mobler">
+            <button class="filter" data-kategori="bord" data-pris="pris">Borde</button>
+            <button class="filter" data-kategori="stol">Stole</button>
+            <button class="filter" data-kategori="sofa">Sofaer</button>
+            <button class="filter" data-kategori="reol">Reoler</button>
+        </div>
+        <div>
+            <button class="filter" data-kategori="hylde">Hylder</button>
+            <button class="filter" data-kategori="lampe">Lamper</button>
+            <button class="filter" data-kategori="tæppe">Tæpper</button>
+            <button class="filter" data-kategori="dekoration">Dekoration</button>
+        </div>
+    </nav>
+    <nav>
+        <div class="filter_prisklasse hide">
+            <p>Hvis du har lyst, kan du også sortere efter pris:</p>
+            <button class="filter-prisklasse" data-prisklasse="0-300">0-300 kr.</button>
+            <button class="filter-prisklasse" data-prisklasse="300-600">300-600 kr.</button>
+            <button class="filter-prisklasse" data-prisklasse="600-900">600-900 kr.</button>
+            <button class="filter-prisklasse" data-prisklasse="1000<">over 1000 kr.</button>
+        </div>
+    </nav>
+
+    <section class="data"></section>
+
+
+    <template>
+        <article>
+            <img src="" alt="">
+            <h2 class="navn"></h2>
+            <p class="kort"></p>
+            <p class="pris"></p>
+        </article>
+    </template>
+
+
+    <footer>
+        <div id="footer_wrapper">
+            <div class="info">
+                <p>Adresse:</p>
+                <p>Grønnegade 97</p>
+                <p>1234 København K</p>
+            </div>
+            <div class="info">
+                <p>Åbningstider:</p>
+                <p>Mandag - fredag: 10:30-22:00</p>
+                <p>Lørdag: 12:00-23:00</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="scriptVarer.js"></script>
+
+</body>
+
+</html>
